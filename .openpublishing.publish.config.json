@@ -33,16 +33,16 @@
         ]
       },
       "ECMA2Yaml": {
-        "SourceXmlFolder": "dotnet/xml",
-        "OutputYamlFolder": "dotnet/api",
+        "SourceXmlFolder": "officedocs-dev-sharepoint-excel/xml",
+        "OutputYamlFolder": "officedocs-dev-sharepoint-excel/api",
         "Flatten": true,
-        "id": "dotnet-template"
+        "id": "officedocs-dev-sharepoint-excel"
       },
       "SplitTOC": [
-        "dotnet/api/dotnet-template/toc.yml"
+        "officedocs-dev-sharepoint-excel/api/officedocs-dev-sharepoint-excel/toc.yml"
       ],
       "DiffFolder": [
-        "dotnet/api"
+        "officedocs-dev-sharepoint-excel/api"
       ]
     }
   ],
