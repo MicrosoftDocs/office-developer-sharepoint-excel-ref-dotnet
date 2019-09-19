@@ -39,7 +39,8 @@
         "SourceXmlFolder": "officedocs-dev-sharepoint-excel/xml",
         "OutputYamlFolder": "officedocs-dev-sharepoint-excel/api",
         "Flatten": true,
-        "id": "officedocs-dev-sharepoint-excel"
+        "id": "officedocs-dev-sharepoint-excel",
+        "SDPMode": "true"
       },
       "SplitTOC": [
         "officedocs-dev-sharepoint-excel/api/officedocs-dev-sharepoint-excel/toc.yml"
@@ -88,8 +89,5 @@
       "target_framework": "net45",
       "version": "latest"
     }
-  ],
-  "ECMA2Yaml": {
-    "SDPMode": "true"
-  }
+  ]
 }
