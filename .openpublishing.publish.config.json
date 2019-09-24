@@ -13,15 +13,18 @@
       "type_mapping": {
         "Conceptual": "Content",
         "ManagedReference": "Content",
-        "RestApi": "Content"
+        "RestApi": "Content",
+        "NetEnum": "Content",
+        "NetDelegate": "Content",
+        "NetNamespace": "Content",
+        "NetMember": "Content",
+        "NetType": "Content"
       },
       "build_entry_point": "docs",
       "template_folder": "_themes",
       "base_path": "dotnet",
       "site_name": "Docs",
-      "customized_template_paths": [
-        "_dependentPackages/memberpage.plugins/content"
-      ],
+      "customized_template_paths": [],
       "customized_tasks": {
         "docset_prebuild": [
           "_dependentPackages/ECMA2Yaml/tools/Run.ps1",
@@ -36,7 +39,8 @@
         "SourceXmlFolder": "officedocs-dev-sharepoint-excel/xml",
         "OutputYamlFolder": "officedocs-dev-sharepoint-excel/api",
         "Flatten": true,
-        "id": "officedocs-dev-sharepoint-excel"
+        "id": "officedocs-dev-sharepoint-excel",
+        "SDPMode": "true"
       },
       "SplitTOC": [
         "officedocs-dev-sharepoint-excel/api/officedocs-dev-sharepoint-excel/toc.yml"
