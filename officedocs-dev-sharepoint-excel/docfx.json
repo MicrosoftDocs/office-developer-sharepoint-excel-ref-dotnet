@@ -39,6 +39,7 @@
       ]
     },
     "globalMetadata": {
+      "feedback_system": "Standard",
       "apiPlatform": "dotnet",
       "ms.suite": "office",
       "breadcrumb_path": "~/breadcrumb/toc.yml"
